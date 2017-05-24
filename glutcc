@@ -1,0 +1,6 @@
+#! /bin/bash
+
+gcc -o render $1 $2 -lglut -lGL -lGLU -lm
+xc
+./render
+exit 0
